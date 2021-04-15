@@ -1,0 +1,13 @@
+类名.address	店名
+字体css地址
+https://s3plus.meituan.net/v1/mss_0a06a471f9514fc79c981b5466f56b91/svgtextcss/14162b9b7e69a4667076b9cc1decc4ca.css
+字体PingFangSC-Regular-address地址
+http://s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a5c7aa.eot
+http://s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a5c7aa.woff
+
+类名.num		电话
+字体css地址
+https://s3plus.meituan.net/v1/mss_0a06a471f9514fc79c981b5466f56b91/svgtextcss/14162b9b7e69a4667076b9cc1decc4ca.css
+字体PingFangSC-Regular-num地址
+http://s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/44a46a23.eot
+http://s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/44a46a23.woff
