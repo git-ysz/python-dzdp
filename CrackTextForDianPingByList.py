@@ -24,6 +24,7 @@ def get_font():
     font_name[a] = value
   return font_name
 
+# 代理
 proxies = {
   # 'http': 'http://167.179.85.238:8118'
 }
@@ -45,21 +46,21 @@ headers = {
   # 'Sec-Fetch-Site': 'cross-site'
 }
 
-# dper = input('请输入cookie中"dper"的值：')
-dper = 'a2a3939239ab93d52e9a02c369cd1ddfd1ff5c6cc129cd1a488b84028cba9f2e0c36a1d1e72f95a93c2fc982aed57e4f94e2bbb0f32ebcf0926a8f2b1e30d27cc913bab4cc7574487559262bd070f69a40db9c3ad99de9b3a44e9ed2d3dcdcbe'
+dper = input('请输入cookie中"dper"的值：')
+# dper = 'a2a3939239ab93d52e9a02c369cd1ddfd1ff5c6cc129cd1a488b84028cba9f2e0c36a1d1e72f95a93c2fc982aed57e4f94e2bbb0f32ebcf0926a8f2b1e30d27cc913bab4cc7574487559262bd070f69a40db9c3ad99de9b3a44e9ed2d3dcdcbe'
 
 cookies = {
   'dper': dper
 }
 
-shop_list_url = 'http://www.dianping.com/beijing/ch10'
+# shop_list_url = 'http://www.dianping.com/beijing/ch10'
 # shop_list_url = 'http://www.dianping.com/wuhan/ch10/p1'
 # shop_list_url = 'http://www.dianping.com/wuhan/ch10/p2'
 # shop_list_url = 'http://www.dianping.com/wuhan/ch10/p3'
 # shop_list_url = 'http://www.dianping.com/beijing/ch10/r2580'
 # shop_list_url = 'http://www.dianping.com/beijing/ch10/r2580p1'
 # shop_list_url = 'http://www.dianping.com/beijing/ch10/r2580p2'
-# shop_list_url = input('请输入商品列表地址url：')
+shop_list_url = input('请输入商品列表地址url（例：http://www.dianping.com/beijing/ch10）：')
 
 i = 1
 page = int(input('请输入需要查询的页数（每页15条）：')) # 查询页数
